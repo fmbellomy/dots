@@ -1,0 +1,481 @@
+[
+    {
+        "Job": {
+            "Audio": {
+                "AudioList": [
+                    {
+                        "Bitrate": 320,
+                        "CompressionLevel": -1.0,
+                        "DRC": 0.0,
+                        "DitherMethod": "auto",
+                        "Encoder": "av_aac",
+                        "Gain": 0.0,
+                        "Mixdown": "stereo",
+                        "Name": "simple_aac_recording",
+                        "NormalizeMixLevel": false,
+                        "PresetEncoder": "av_aac",
+                        "Quality": -3.0,
+                        "Samplerate": 48000,
+                        "Track": 0
+                    }
+                ],
+                "CopyMask": [
+                    "copy:aac"
+                ],
+                "FallbackEncoder": "av_aac"
+            },
+            "Destination": {
+                "AlignAVStart": true,
+                "ChapterList": [
+                    {
+                        "Duration": {
+                            "Hours": 0,
+                            "Minutes": 1,
+                            "Seconds": 13,
+                            "Ticks": 6615000
+                        },
+                        "Name": ""
+                    }
+                ],
+                "ChapterMarkers": false,
+                "File": "/home/bop/owned.mp4",
+                "InlineParameterSets": false,
+                "Mp4Options": {
+                    "IpodAtom": false,
+                    "Mp4Optimize": true
+                },
+                "Mux": "m4v"
+            },
+            "Filters": {
+                "FilterList": [
+                    {
+                        "ID": 3,
+                        "Settings": {
+                            "block-height": "16",
+                            "block-thresh": "40",
+                            "block-width": "16",
+                            "filter-mode": "2",
+                            "mode": "3",
+                            "motion-thresh": "1",
+                            "spatial-metric": "2",
+                            "spatial-thresh": "1"
+                        }
+                    },
+                    {
+                        "ID": 4,
+                        "Settings": {
+                            "mode": "7"
+                        }
+                    },
+                    {
+                        "ID": 7,
+                        "Settings": {
+                            "mode": 2,
+                            "rate": "27000000/450000"
+                        }
+                    },
+                    {
+                        "ID": 14,
+                        "Settings": {
+                            "crop-bottom": 0,
+                            "crop-left": 0,
+                            "crop-right": 0,
+                            "crop-top": 0,
+                            "height": 1080,
+                            "width": 1920
+                        }
+                    }
+                ]
+            },
+            "Metadata": {
+                "Name": "2023-02-26 14-22-18"
+            },
+            "PAR": {
+                "Den": 1,
+                "Num": 1
+            },
+            "SequenceID": 0,
+            "Source": {
+                "Angle": 0,
+                "Path": "/home/bop/2023-02-26 14-22-18.mkv",
+                "Range": {
+                    "End": 1,
+                    "Start": 1,
+                    "Type": "chapter"
+                },
+                "Title": 1
+            },
+            "Subtitle": {
+                "Search": {
+                    "Burn": true,
+                    "Default": false,
+                    "Enable": false,
+                    "Forced": false
+                },
+                "SubtitleList": []
+            },
+            "Video": {
+                "ChromaLocation": 1,
+                "ColorInputFormat": 0,
+                "ColorMatrix": 1,
+                "ColorOutputFormat": 0,
+                "ColorPrimaries": 1,
+                "ColorRange": 1,
+                "ColorTransfer": 1,
+                "Encoder": "x264",
+                "HardwareDecode": 0,
+                "Level": "4.2",
+                "Options": "keyint=30:min-keyint=15:ref=1:bframes=2:b-pyramid=none",
+                "Preset": "slower",
+                "Profile": "high",
+                "QSV": {
+                    "AdapterIndex": 0,
+                    "AsyncDepth": 0,
+                    "Decode": false
+                },
+                "Quality": 20.0,
+                "Tune": "",
+                "Turbo": false,
+                "TwoPass": false
+            }
+        },
+        "Title": {
+            "AngleCount": 1,
+            "AudioList": [
+                {
+                    "Attributes": {
+                        "AltCommentary": false,
+                        "Commentary": false,
+                        "Default": false,
+                        "Normal": false,
+                        "Secondary": false,
+                        "VisuallyImpaired": false
+                    },
+                    "BitRate": 1,
+                    "ChannelCount": 2,
+                    "ChannelLayout": 3,
+                    "ChannelLayoutName": "stereo",
+                    "Codec": 65536,
+                    "CodecName": "aac",
+                    "CodecParam": 86018,
+                    "Description": "Unknown (AAC LC) (2.0 ch)",
+                    "LFECount": 0,
+                    "Language": "Unknown",
+                    "LanguageCode": "und",
+                    "Name": "simple_aac_recording",
+                    "SampleRate": 48000,
+                    "TrackNumber": 1
+                }
+            ],
+            "ChapterList": [
+                {
+                    "Duration": {
+                        "Hours": 0,
+                        "Minutes": 1,
+                        "Seconds": 13,
+                        "Ticks": 6615000
+                    },
+                    "Name": ""
+                }
+            ],
+            "Color": {
+                "ChromaLocation": 1,
+                "Format": 0,
+                "Matrix": 1,
+                "Primary": 1,
+                "Range": 1,
+                "Transfer": 1
+            },
+            "Container": "matroska,webm",
+            "Crop": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "Duration": {
+                "Hours": 0,
+                "Minutes": 1,
+                "Seconds": 13,
+                "Ticks": 6615000
+            },
+            "FrameRate": {
+                "Den": 450000,
+                "Num": 27000000
+            },
+            "Geometry": {
+                "Height": 1080,
+                "PAR": {
+                    "Den": 1,
+                    "Num": 1
+                },
+                "Width": 1920
+            },
+            "Index": 1,
+            "InterlaceDetected": false,
+            "LooseCrop": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "Metadata": {},
+            "Name": "2023-02-26 14-22-18",
+            "Path": "/home/bop/2023-02-26 14-22-18.mkv",
+            "Playlist": -1,
+            "SubtitleList": [],
+            "Type": 3,
+            "VideoCodec": "h264"
+        },
+        "uiSettings": {
+            "ActivityFilename": "/home/bop/.config/ghb/EncodeLogs/owned 2023-02-26 14-25-17.log",
+            "AlignAVStart": true,
+            "AudioAllowAACPass": true,
+            "AudioAllowAC3Pass": false,
+            "AudioAllowDTSHDPass": false,
+            "AudioAllowDTSPass": false,
+            "AudioAllowEAC3Pass": false,
+            "AudioAllowFLACPass": false,
+            "AudioAllowMP2Pass": false,
+            "AudioAllowMP3Pass": false,
+            "AudioAllowOPUSPass": false,
+            "AudioAllowTRUEHDPass": false,
+            "AudioBitrate": "192",
+            "AudioCopyMask": [
+                "copy:aac"
+            ],
+            "AudioEncoder": "copy:ac3",
+            "AudioEncoderFallback": "av_aac",
+            "AudioLanguageList": [],
+            "AudioList": [
+                {
+                    "AudioBitrate": 320,
+                    "AudioCompressionLevel": -1.0,
+                    "AudioDitherMethod": "auto",
+                    "AudioEncoder": "av_aac",
+                    "AudioMixdown": "stereo",
+                    "AudioNormalizeMixLevel": false,
+                    "AudioSamplerate": "48",
+                    "AudioTrackDRCSlider": 0.0,
+                    "AudioTrackGainSlider": 0.0,
+                    "AudioTrackQuality": 1.0,
+                    "AudioTrackQualityEnable": false
+                }
+            ],
+            "AudioMixdown": "dpl2",
+            "AudioSamplerate": "auto",
+            "AudioSecondaryEncoderMode": true,
+            "AudioTrack": "0",
+            "AudioTrackDRCSlider": 0.90000000000000002,
+            "AudioTrackDRCValue": "Off",
+            "AudioTrackGainSlider": 0.0,
+            "AudioTrackName": "",
+            "AudioTrackQuality": -1.0,
+            "AudioTrackQualityEnable": false,
+            "AudioTrackQualityValue": "-3",
+            "AudioTrackQualityX": -3.0,
+            "AudioTrackSelectionBehavior": "first",
+            "ChapterMarkers": true,
+            "ChildrenArray": [],
+            "Default": false,
+            "DisplayHeight": 1080.0,
+            "FileFormat": "av_mp4",
+            "Folder": false,
+            "FolderOpen": false,
+            "ImportFile": null,
+            "ImportLanguage": "und",
+            "ImportOffset": 0.0,
+            "InlineParameterSets": false,
+            "MainWhenComplete": "notify",
+            "MetaAlbumArtist": "",
+            "MetaArtist": "",
+            "MetaComment": "",
+            "MetaDescription": "",
+            "MetaGenre": "",
+            "MetaLongDescription": "",
+            "MetaName": "2023-02-26 14-22-18",
+            "MetaReleaseDate": "",
+            "MetadataPassthrough": true,
+            "Mp4HttpOptimize": true,
+            "Mp4iPodCompatible": false,
+            "PictureAllowUpscaling": false,
+            "PictureAutoCrop": true,
+            "PictureBottomCrop": 0.0,
+            "PictureChromaSmoothCustom": "",
+            "PictureChromaSmoothPreset": "off",
+            "PictureChromaSmoothTune": "none",
+            "PictureColorspaceCustom": "",
+            "PictureColorspacePreset": "off",
+            "PictureCombDetectCustom": "",
+            "PictureCombDetectPreset": "default",
+            "PictureCropMode": 0,
+            "PictureDARWidth": 1920.0,
+            "PictureDeblockCustom": "strength=strong:thresh=20:blocksize=8",
+            "PictureDeblockPreset": "off",
+            "PictureDeblockTune": "medium",
+            "PictureDeinterlaceCustom": "",
+            "PictureDeinterlaceDecomb": false,
+            "PictureDeinterlaceFilter": "decomb",
+            "PictureDeinterlacePreset": "default",
+            "PictureDenoiseCustom": "",
+            "PictureDenoiseFilter": "off",
+            "PictureDenoisePreset": "",
+            "PictureDenoiseTune": "none",
+            "PictureDetelecine": "off",
+            "PictureDetelecineCustom": "",
+            "PictureForceHeight": 0,
+            "PictureForceWidth": 0,
+            "PictureHeight": 1080.0,
+            "PictureItuPAR": false,
+            "PictureKeepRatio": true,
+            "PictureLeftCrop": 0.0,
+            "PictureModulus": 2,
+            "PicturePAR": "off",
+            "PicturePARHeight": 1.0,
+            "PicturePARWidth": 1.0,
+            "PicturePadBottom": 0.0,
+            "PicturePadColor": "black",
+            "PicturePadLeft": 0.0,
+            "PicturePadMode": "none",
+            "PicturePadRight": 0.0,
+            "PicturePadTop": 0.0,
+            "PictureRightCrop": 0.0,
+            "PictureRotate": "angle=0:hflip=0",
+            "PictureSharpenCustom": "",
+            "PictureSharpenFilter": "off",
+            "PictureSharpenPreset": "",
+            "PictureSharpenTune": "",
+            "PictureTopCrop": 0.0,
+            "PictureUseMaximumSize": true,
+            "PictureWidth": 1920.0,
+            "Preferences": {
+                "ActivityFontSize": 8.0,
+                "AddCC": false,
+                "AutoScan": false,
+                "CustomTmpDir": null,
+                "CustomTmpEnable": false,
+                "DiskFreeCheck": true,
+                "DiskFreeLimit": 2000.0,
+                "EncodeLogLocation": false,
+                "ExportDirectory": "/home/bop/Desktop",
+                "LogLongevity": "immortal",
+                "LoggingLevel": "1",
+                "MinTitleDuration": 10.0,
+                "PreferredLanguage": "und",
+                "RemoveFinishedJobs": false,
+                "ShowMiniPreview": true,
+                "SrtDir": ".",
+                "SyncTitleSettings": true,
+                "UseM4v": false,
+                "VideoQualityGranularity": "1",
+                "WhenComplete": "notify",
+                "allow_tweaks": false,
+                "auto_name": true,
+                "auto_name_template": "{source}",
+                "check_updates": "weekly",
+                "default_source": "/home/bop/2023-02-26 14-22-18.mkv",
+                "destination_dir": "/home/bop",
+                "hbfd": false,
+                "hbfd_feature": false,
+                "last_update_check": 0,
+                "live_duration": 15.0,
+                "preset_window_height": 1,
+                "preset_window_width": 1,
+                "preview_count": 10.0,
+                "preview_show_crop": false,
+                "preview_x": -1,
+                "preview_y": -1,
+                "reduce_hd_preview": true,
+                "update_skip_version": 0,
+                "use_dvdnav": true,
+                "version": "0.1",
+                "window_height": 1036,
+                "window_width": 1876
+            },
+            "PreferredLanguage": "und",
+            "PresetCategory": "new",
+            "PresetDescription": "High quality video for publishing via online services such as Vimeo and YouTube. H.264 video (up to 1080p60) and high bit rate AAC stereo audio in an MP4 container.",
+            "PresetDisabled": false,
+            "PresetFullName": "/Web/Creator 1080p60",
+            "PresetName": "Creator 1080p60",
+            "PtoPType": "chapter",
+            "QueueWhenComplete": "notify",
+            "SrtCodeset": "ISO-8859-1",
+            "SubtitleAddCC": false,
+            "SubtitleAddForeignAudioSearch": true,
+            "SubtitleAddForeignAudioSubtitle": false,
+            "SubtitleBurnBDSub": true,
+            "SubtitleBurnBehavior": "foreign",
+            "SubtitleBurnDVDSub": true,
+            "SubtitleLanguageList": [],
+            "SubtitleTrackSelectionBehavior": "none",
+            "Type": 0,
+            "UsesPictureFilters": true,
+            "VideoAvgBitrate": 9000.0,
+            "VideoColorMatrixCodeOverride": 0,
+            "VideoEncoder": "x264",
+            "VideoFramerate": "60",
+            "VideoFramerateCFR": false,
+            "VideoFramerateMode": "pfr",
+            "VideoFrameratePFR": true,
+            "VideoFramerateVFR": false,
+            "VideoGrayScale": false,
+            "VideoHWDecode": 0,
+            "VideoLevel": "4.2",
+            "VideoOptionExtra": "keyint=30:min-keyint=15:ref=1:bframes=2:b-pyramid=none",
+            "VideoPreset": "slower",
+            "VideoPresetSlider": 7,
+            "VideoProfile": "high",
+            "VideoQSVDecode": false,
+            "VideoQualitySlider": 20,
+            "VideoQualityType": 2,
+            "VideoScaler": "swscale",
+            "VideoTune": "none",
+            "VideoTurboTwoPass": false,
+            "VideoTwoPass": true,
+            "activity_location": "/home/bop/.config/ghb/Activity.log.80915",
+            "angle": 1.0,
+            "angle_count": 1,
+            "chapter_list": [],
+            "crop_mode": "auto",
+            "dest_dir": "/home/bop",
+            "dest_file": "owned.mp4",
+            "destination": "/home/bop/owned.mp4",
+            "end_point": 1.0,
+            "final_aspect_ratio": "16:9",
+            "final_storage_size": "1920 x 1080",
+            "hflip": false,
+            "job_finish_time": 1677443190,
+            "job_pause_time_ms": 0,
+            "job_start_time": 1677443117,
+            "job_status": 4,
+            "job_unique_id": 1,
+            "preset_modified": true,
+            "preset_reload": false,
+            "preview_frame": 2,
+            "resolution_limit": "1080p",
+            "rotate": "0",
+            "scale_height": 1080.0,
+            "scale_width": 1920.0,
+            "single_title": 1.0,
+            "source": "/home/bop/2023-02-26 14-22-18.mkv",
+            "source_aspect_ratio": "16:9",
+            "source_display_size": "1920 x 1080",
+            "source_height": 1080,
+            "source_label": "2023-02-26 14-22-18",
+            "source_storage_size": "1920 x 1080",
+            "source_width": 1920,
+            "start_frame": -1,
+            "start_point": 1.0,
+            "title": "1",
+            "title_selected": false,
+            "volume": "2023-02-26 14-22-18",
+            "vquality_type_bitrate": false,
+            "vquality_type_constant": true,
+            "x264FastDecode": false,
+            "x264Option": "",
+            "x264UseAdvancedOptions": false,
+            "x264ZeroLatency": false
+        }
+    }
+]

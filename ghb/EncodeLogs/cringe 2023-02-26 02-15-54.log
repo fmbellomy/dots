@@ -1,0 +1,256 @@
+Handbrake Version: 1.6.1 (2023012300)
+[02:15:54] gtkgui: Preset: /Web/Social 100 MB 5 Minutes 1080p30
+[02:15:54] Starting work at: Sun Feb 26 02:15:54 2023
+
+[02:15:54] 1 job(s) to process
+[02:15:54] json job:
+{
+    "Audio": {
+        "AudioList": [
+            {
+                "Bitrate": 128,
+                "CompressionLevel": -1.0,
+                "DRC": 0.0,
+                "DitherMethod": "auto",
+                "Encoder": "av_aac",
+                "Gain": 0.0,
+                "Mixdown": "stereo",
+                "Name": "simple_aac_recording",
+                "NormalizeMixLevel": false,
+                "PresetEncoder": "av_aac",
+                "Quality": -3.0,
+                "Samplerate": 0,
+                "Track": 0
+            }
+        ],
+        "CopyMask": [
+            "copy:aac"
+        ],
+        "FallbackEncoder": "av_aac"
+    },
+    "Destination": {
+        "AlignAVStart": true,
+        "ChapterList": [
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 0,
+                    "Seconds": 49,
+                    "Ticks": 4450500
+                },
+                "Name": ""
+            }
+        ],
+        "ChapterMarkers": false,
+        "File": "/home/bop/cringe.mp4",
+        "InlineParameterSets": false,
+        "Mp4Options": {
+            "IpodAtom": false,
+            "Mp4Optimize": true
+        },
+        "Mux": "m4v"
+    },
+    "Filters": {
+        "FilterList": [
+            {
+                "ID": 3,
+                "Settings": {
+                    "block-height": "16",
+                    "block-thresh": "40",
+                    "block-width": "16",
+                    "filter-mode": "2",
+                    "mode": "3",
+                    "motion-thresh": "1",
+                    "spatial-metric": "2",
+                    "spatial-thresh": "1"
+                }
+            },
+            {
+                "ID": 4,
+                "Settings": {
+                    "mode": "7"
+                }
+            },
+            {
+                "ID": 7,
+                "Settings": {
+                    "mode": 2,
+                    "rate": "27000000/900000"
+                }
+            },
+            {
+                "ID": 14,
+                "Settings": {
+                    "crop-bottom": 0,
+                    "crop-left": 0,
+                    "crop-right": 0,
+                    "crop-top": 0,
+                    "height": 1080,
+                    "width": 1920
+                }
+            }
+        ]
+    },
+    "Metadata": {
+        "Name": "2023-02-26 02-12-19"
+    },
+    "PAR": {
+        "Den": 1,
+        "Num": 1
+    },
+    "SequenceID": 0,
+    "Source": {
+        "Angle": 0,
+        "Path": "/home/bop/2023-02-26 02-12-19.mkv",
+        "Range": {
+            "End": 1,
+            "Start": 1,
+            "Type": "chapter"
+        },
+        "Title": 1
+    },
+    "Subtitle": {
+        "Search": {
+            "Burn": true,
+            "Default": false,
+            "Enable": false,
+            "Forced": false
+        },
+        "SubtitleList": []
+    },
+    "Video": {
+        "ChromaLocation": 1,
+        "ColorInputFormat": 0,
+        "ColorMatrix": 1,
+        "ColorOutputFormat": 0,
+        "ColorPrimaries": 1,
+        "ColorRange": 1,
+        "ColorTransfer": 1,
+        "Encoder": "x264",
+        "HardwareDecode": 0,
+        "Level": "4.0",
+        "Options": "vbv-bufsize=24000:vbv-maxrate=2400:aq-mode=2:aq-strength=0.8:direct=auto:analyse=all:deblock=3,2",
+        "Preset": "medium",
+        "Profile": "high",
+        "QSV": {
+            "AdapterIndex": 0,
+            "AsyncDepth": 0,
+            "Decode": false
+        },
+        "Quality": 21.0,
+        "Tune": "",
+        "Turbo": false,
+        "TwoPass": false
+    }
+}
+[02:15:54] CPU: 
+[02:15:54]  - logical processor count: 12
+[02:15:54] Intel Quick Sync Video support: no
+[02:15:54] hb_scan: path=/home/bop/2023-02-26 02-12-19.mkv, title_index=1
+udfread ERROR: ECMA 167 Volume Recognition failed
+disc.c:333: failed opening UDF image /home/bop/2023-02-26 02-12-19.mkv
+disc.c:437: error opening file BDMV/index.bdmv
+disc.c:437: error opening file BDMV/BACKUP/index.bdmv
+[02:15:54] bd: not a bd - trying as a stream/file instead
+libdvdread: DVDOpenFileUDF:UDFFindFile /VIDEO_TS/VIDEO_TS.IFO failed
+libdvdnav: vm: vm: failed to read VIDEO_TS.IFO
+[02:15:54] dvd: not a dvd - trying as a stream/file instead
+Input #0, matroska,webm, from '/home/bop/2023-02-26 02-12-19.mkv':
+  Metadata:
+    ENCODER         : Lavf59.27.100
+  Duration: 00:00:49.45, start: 0.000000, bitrate: 999 kb/s
+  Stream #0:0: Video: h264 (High), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 60 fps, 60 tbr, 1k tbn
+    Metadata:
+      DURATION        : 00:00:49.450000000
+  Stream #0:1: Audio: aac (LC), 48000 Hz, stereo, fltp
+    Metadata:
+      title           : simple_aac_recording
+      DURATION        : 00:00:49.386000000
+[02:15:54] scan: decoding previews for title 1
+[02:15:54] scan: audio 0x1: aac, rate=48000Hz, bitrate=1 Unknown (AAC LC) (2.0 ch)
+[02:15:55] scan: 10 previews, 1920x1080, 60.000 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 1:1, color profile: 1-1-1, chroma location: left
+[02:15:55] libhb: scan thread found 1 valid title(s)
+[02:15:55] Starting Task: Encoding Pass
+[02:15:55] Skipping crop/scale filter
+[02:15:55] job configuration:
+[02:15:55]  * source
+[02:15:55]    + /home/bop/2023-02-26 02-12-19.mkv
+[02:15:55]    + title 1, chapter(s) 1 to 1
+[02:15:55]    + container: matroska,webm
+[02:15:55]    + data rate: 999 kbps
+[02:15:55]  * destination
+[02:15:55]    + /home/bop/cringe.mp4
+[02:15:55]    + container: MPEG-4 (libavformat)
+[02:15:55]      + optimized for HTTP streaming (fast start)
+[02:15:55]      + align initial A/V stream timestamps
+[02:15:55]  * video track
+[02:15:55]    + decoder: h264 8-bit (yuv420p)
+[02:15:55]    + filters
+[02:15:55]      + Comb Detect (mode=3:spatial-metric=2:motion-thresh=1:spatial-thresh=1:filter-mode=2:block-thresh=40:block-width=16:block-height=16)
+[02:15:55]      + Decomb (mode=39)
+[02:15:55]      + Framerate Shaper (mode=2:rate=27000000/900000)
+[02:15:55]        + frame rate: 60.000 fps -> peak rate limited to 30.000 fps
+[02:15:55]    + Output geometry
+[02:15:55]      + storage dimensions: 1920 x 1080
+[02:15:55]      + pixel aspect ratio: 1 : 1
+[02:15:55]      + display dimensions: 1920 x 1080
+[02:15:55]    + encoder: H.264 (libx264)
+[02:15:55]      + preset:  medium
+[02:15:55]      + options: vbv-bufsize=24000:vbv-maxrate=2400:aq-mode=2:aq-strength=0.8:direct=auto:analyse=all:deblock=3,2
+[02:15:55]      + profile: high
+[02:15:55]      + level:   4.0
+[02:15:55]      + quality: 21.00 (RF)
+[02:15:55]      + color profile: 1-1-1
+[02:15:55]      + chroma location: left
+[02:15:55]  * audio track 1
+[02:15:55]    + name: simple_aac_recording
+[02:15:55]    + decoder: Unknown (AAC LC) (2.0 ch) (track 1, id 0x1)
+[02:15:55]      + samplerate: 48000 Hz
+[02:15:55]    + mixdown: Stereo
+[02:15:55]    + encoder: AAC (libavcodec)
+[02:15:55]      + bitrate: 128 kbps, samplerate: 48000 Hz
+[02:15:55] sync: expecting 2967 video frames
+[02:15:55] encx264: min-keyint: 30, keyint: 300
+[02:15:55] encx264: encoding at constant RF 21.000000
+[02:15:55] encx264: unparsed options: vbv-bufsize=24000:vbv-maxrate=2400:aq-mode=2:aq-strength=0.8:direct=auto:analyse=all:deblock=3,2:level=4.0
+x264 [info]: using SAR=1/1
+x264 [info]: using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+x264 [info]: profile High, level 4.0, 4:2:0, 8-bit
+[02:15:55] sync: first pts video is 0
+[02:15:55] sync: Chapter 1 at frame 1 time 0
+[02:15:55] sync: first pts audio 0x1 is 0
+[02:16:10] reader: done. 1 scr changes
+[02:16:11] work: average encoding speed for job is 188.736267 fps
+[02:16:11] comb detect: heavy 0 | light 2 | uncombed 2963 | total 2965
+[02:16:11] decomb: deinterlaced 0 | blended 2 | unfiltered 2963 | total 2965
+[02:16:11] vfr: 1484 frames output, 1481 dropped and 0 duped for CFR/PFR
+[02:16:11] vfr: lost time: 0 (0 frames)
+[02:16:11] vfr: gained time: 0 (0 frames) (0 not accounted for)
+[02:16:11] aac-decoder done: 2315 frames, 0 decoder errors
+[02:16:11] h264-decoder done: 2965 frames, 0 decoder errors
+[02:16:11] sync: got 2965 frames, 2967 expected
+[02:16:11] sync: framerate min 20.000 fps, max 60.000 fps, avg 59.960 fps
+x264 [info]: frame I:5     Avg QP:15.03  size:160885
+x264 [info]: frame P:378   Avg QP:18.77  size:  1859
+x264 [info]: frame B:1101  Avg QP:23.64  size:   163
+x264 [info]: consecutive B-frames:  0.6%  1.1%  1.0% 97.3%
+x264 [info]: mb I  I16..4: 39.0% 33.5% 27.5%
+x264 [info]: mb P  I16..4:  0.5%  0.2%  0.2%  P16..4:  1.6%  0.1%  0.1%  0.0%  0.0%    skip:97.3%
+x264 [info]: mb B  I16..4:  0.0%  0.0%  0.0%  B16..8:  1.1%  0.0%  0.0%  direct: 0.0%  skip:98.9%  L0:39.3% L1:60.2% BI: 0.5%
+x264 [info]: 8x8 transform intra:27.9% inter:47.5%
+x264 [info]: direct mvs  spatial:99.1% temporal:0.9%
+x264 [info]: coded y,uvDC,uvAC intra: 20.8% 39.4% 26.0% inter: 0.1% 0.3% 0.1%
+x264 [info]: i16 v,h,dc,p: 52% 45%  1%  3%
+x264 [info]: i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 40% 21% 18%  3%  4%  3%  6%  3%  3%
+x264 [info]: i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 41% 30% 13%  2%  3%  3%  3%  2%  3%
+x264 [info]: i8c dc,h,v,p: 51% 28% 19%  1%
+x264 [info]: Weighted P-Frames: Y:0.0% UV:0.0%
+x264 [info]: ref P L0: 82.3%  2.1%  8.7%  6.9%
+x264 [info]: ref B L0: 50.9% 46.5%  2.6%
+x264 [info]: ref B L1: 95.2%  4.8%
+x264 [info]: kb/s:272.82
+[02:16:11] mux: track 0, 1484 frames, 1686702 bytes, 272.60 kbps, fifo 2048
+[02:16:11] mux: track 1, 2316 frames, 153049 bytes, 24.74 kbps, fifo 4096
+[02:16:11] Finished work at: Sun Feb 26 02:16:11 2023
+
+[02:16:11] libhb: work result = 0
